@@ -10,5 +10,17 @@
     "title": "Dice Roller",
     "cssFile": "diceRoller.css",
     "jsFile": "diceRoller.js"
+  },
+  {
+    "name": "rpg",
+    "title": "Rpg",
+    "cssFile": "rpg.css",
+    "jsFile": "rpg.js"
+  },
+  {
+    "name": "etchsketch",
+    "title": "Etchsketch",
+    "cssFile": "etchsketch.css",
+    "jsFile": "etchsketch.js"
   }
 ]

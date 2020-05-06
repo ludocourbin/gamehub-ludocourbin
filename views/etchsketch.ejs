@@ -1,0 +1,49 @@
+<%- include('partials/header', {page: 'etchsketch'}); %>
+<%- include('partials/nav')%>
+		<div class="background"></div>
+		<main class="showcase">
+			<header>
+				<h1 class="text-center text-monospace text-uppercase">
+					Etch a sketch project
+				</h1>
+				<ul class="sketch-options mb-0 py-4 px-1">
+					<li class="sketch-option">
+						<button id="black">Black</button>
+					</li>
+					<li class="sketch-option">
+						<button id="random">
+							Random
+						</button>
+					</li>
+					<li class="sketch-option">
+						<button id="percent-increase">
+							Percent increase
+						</button>
+					</li>
+					<li class="sketch-option">
+						<button id="reset" value="16">
+							Reset
+						</button>
+					</li>
+					<li id="set-size">
+						Size
+						<input
+							type="number"
+							name="size"
+							id="size"
+							value="16"
+							min="2"
+							max="80"
+						/>
+					</li>
+				</ul>
+			</header>
+			<div id="grid-parent">
+				<div id="grid"></div>
+			</div>
+			<footer id="curent-theme">
+				Curent coloring theme: <span id="theme">BLACK</span>
+			</footer>
+		</main>
+
+		<script src="./js/etchsketch.js"></script>

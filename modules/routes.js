@@ -11,6 +11,10 @@ router.get('/', (_, response) => {
 	});
 });
 
+// router.get('/etchsketch', (_, response) => {
+// 	response.render('etchsketch')
+// })
+
 
 router.get('/:game', (request, response) => {
 	const userGame = request.params.game;

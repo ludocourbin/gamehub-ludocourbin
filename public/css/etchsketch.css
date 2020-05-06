@@ -1,0 +1,114 @@
+body {
+	text-align: center;
+}
+
+body::after {
+	content: '';
+	opacity: 0.2;
+	/* background: url('./doodle.jpg'); */
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+.header  {
+	background-color: white;
+}
+
+.showcase {
+	width: 90%;
+	margin: 60px auto 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.showcase .sketch-options {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.87);
+	width: 600px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.showcase .sketch-options .sketch-option:not(:last-child) {
+	margin-right: 10px;
+}
+
+.showcase .sketch-options #set-size input {
+	padding: 8px 12px;
+	font-size: 1em;
+}
+
+button {
+	padding: 10px 16px;
+	color: white;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+#reset {
+	background-color: red;
+}
+
+#random {
+	background-color: yellow;
+	color: black;
+}
+
+#black {
+	background-color: black;
+}
+
+#percent-increase {
+	background-color: #5a6268;
+}
+
+#curent-theme {
+	background-color: white;
+	padding: 10px 20px;
+}
+
+#grid-parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+#grid {
+	display: flex;
+	width: 600px;
+	height: 600px;
+}
+.boxes--over {
+	background-color: violet;
+}
+
+.grid--box {
+	border: 1px solid black;
+	/* height: 50px;
+	width: 50px; */
+	transition: all 0.2s ease-in-out;
+}
+
+.button {
+	order: -1;
+	padding: 1em;
+	text-transform: uppercase;
+	background-color: violet;
+	margin: 1em;
+	border-radius: 10px;
+	color: white;
+}
