@@ -1,0 +1,24 @@
+{
+	"name": "gamehub-ludocourbin",
+	"version": "1.0.0",
+	"description": "gamehub Jeremy Ponceau et Ludovic Courbin",
+	"main": "index.js",
+	"scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/O-clock-Galactica/gamehub-ludocourbin.git"
+	},
+	"author": "Jeremy Ponceau, Ludovic Courbin",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/O-clock-Galactica/gamehub-ludocourbin/issues"
+	},
+	"homepage": "https://github.com/O-clock-Galactica/gamehub-ludocourbin#readme",
+	"dependencies": {
+		"ejs": "^3.1.2",
+		"express": "^4.17.1"
+	}
+}

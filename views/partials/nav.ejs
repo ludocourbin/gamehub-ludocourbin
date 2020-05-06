@@ -1,0 +1,15 @@
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="/">GameHub</a>
+        </h1>
+        <nav>
+            <ul>
+                <%  for(let index = 0; index < games.length; index++) { %>
+                    <li> <a href="<%= games[index].name %>"><%= games[index].name %></a></li>
+                  <% }  %>
+            </ul>
+        </nav>
+    </header>
